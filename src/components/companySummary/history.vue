@@ -8,7 +8,7 @@
   <div class="history-container">
     <div class="tabs"> 
       <ul class="tab-tilte">
-        <li v-for="(itemTit, index) in tabTitle" :key="itemTit" @mouseover="handleMouseOver(index)" @mouseout="handleMouseOut(index)" :class="{active: cur == index}">
+        <li v-for="(itemTit, index) in tabTitle" :key="index" @mouseover="handleMouseOver(index)" @mouseout="handleMouseOut(index)" :class="{active: cur == index}">
           {{ itemTit }}
         </li>
       </ul>
@@ -16,7 +16,7 @@
         <span :class="{active: cur == i}" v-for="(v, i) in tabTitle" :key="i"></span>
       </div>
       <div class="tab-content">
-        <div v-for="(itemCon, index) in tabCon" v-show="cur == index" :key="itemCon">
+        <div v-for="(itemCon, index) in tabCon" v-show="cur == index" :key="index">
           <div v-for="(v, i) in itemCon" :key="i" class="content">
             {{ v }}
           </div>

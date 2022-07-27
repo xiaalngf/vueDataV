@@ -21,7 +21,7 @@ const routes = [
     name: 'Home',
     component: () => import('@/views/Home.vue'),
     meta: {
-      title: '酷屏首页统计图'
+      title: '片区开发全周期组件大全'
     }
   },
   {
@@ -29,7 +29,14 @@ const routes = [
     name: 'Brand',
     component: () => import('@/views/Brand.vue'),
     meta: {
-      title: '公司品牌介绍'
+      title: '片区开发全周期推演系统'
+    }
+  },  {
+    path: '/cycle',
+    name: 'cycle',
+    component: () => import('@/views/FullCycle.vue'),
+    meta: {
+      title: '片区开发全周期推演系统'
     }
   }
 ]

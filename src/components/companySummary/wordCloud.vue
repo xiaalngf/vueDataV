@@ -65,34 +65,34 @@ export default {
             }
           },
           data: [{
-            name: '区块链',
+            name: '新能源',
             value: 810
           }, {
-            name: '云计算',
+            name: '整车厂',
             value: 520
           },{
-            name: "人工智能",
+            name: "磷酸铁锂",
             value: 928
           },{
-            name: "大数据",
+            name: "储能电池",
             value: 906
           },{
             name: "工业互联网",
             value: 825
           },{
-            name: "医疗",
+            name: "车险",
             value: 514
           },{
-            name: "质量溯源",
+            name: "电车检测",
             value: 486
           },{
             name: "政务",
             value: 53
           },{
-            name: "密码学",
+            name: "后装市场",
             value: 927
           },{
-            name: "金融行业",
+            name: "金融买车",
             value: 1308
           },{
             name: "供应链",
@@ -107,13 +107,13 @@ export default {
             name: "联盟链",
             value: 382
           },{
-            name: "数据共享",
+            name: "刀片电池",
             value: 312
           },{
-            name: "文创版权",
+            name: "自动驾驶",
             value: 187
           },{
-            name: "天河链",
+            name: "智能网联",
             value: 163
           },{
             name: "数据存证",
@@ -122,10 +122,10 @@ export default {
             name: "UDFS存储",
             value: 3
           },{
-            name: "在线教育",
+            name: "驾培",
             value: 31
           },{
-            name: "关联分析",
+            name: "立体停车",
             value: 941
           },{
             name: "智慧停车",

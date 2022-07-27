@@ -9,7 +9,7 @@
   	<div class="layer">
   			<div class="some-space">
         	<div class="form">
-						<h2>大数据可视化平台</h2>
+						<h2>深产发片区开发全周期推演平台</h2>
 						<div class="item">
 							<i class="iconfont icon-user"></i>
 							<input
@@ -102,7 +102,7 @@ export default {
   	login () {
   		if (this.userName == 'admin' && this.userPwd == '123456') {
          this.$router.push({
-          path: '/home'
+          path: '/cycle'
          })
       } else {
         this.$Toast({

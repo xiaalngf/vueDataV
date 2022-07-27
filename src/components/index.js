@@ -37,6 +37,11 @@ import wordCloud from './companySummary/wordCloud' // 产品热词
 import distribution from './companySummary/distribution' // 客户分布
 import history from './companySummary/history' // 发展历程
 
+import primary from './changeArea/PrimaryDevelopment' // 一级开发
+import secondary from './changeArea/SecondaryDevelopment' // 二级开发
+import tertiary from './changeArea/TertiaryDevelopment' // 三级运营
+
+
 const components = {
   bgAnimation,
   modal,
@@ -71,6 +76,9 @@ const components = {
   distribution,
   history,
   
+  primary,
+  secondary,
+  tertiary,
 };
 
 const install = (Vue = {}) => {
