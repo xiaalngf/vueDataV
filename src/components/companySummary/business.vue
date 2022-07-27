@@ -26,13 +26,13 @@ export default {
       // 实例化对象
       let myChart = echarts.init(document.getElementById('chart_left1'));
       let charts = { // 按顺序排列从大到小
-        cityList: ['金融行业', '电子政务', '文创版权', '教育行业', '智慧停车', '医疗互联', '物流行业'],
-        cityData: [1500, 1200, 900, 600, 400, 300, 100]
+        cityList: ['征地','拆迁', '路网建设', '公服设施', '公园绿地'],
+        cityData: [24.21, 13.79, 16.64, 2.8, 6.26]
       }
 
       let top10CityList = charts.cityList;
       let top10CityData = charts.cityData;
-      let color = ['rgba(14,109,236', 'rgba(255,91,6', 'rgba(100,255,249', 'rgba(248,195,248', 'rgba(110,234,19', 'rgba(255,168,17', 'rgba(218,111,227'];
+      let color = ['rgba(14,109,236', 'rgba(255,91,6', 'rgba(100,255,249', 'rgba(248,195,248', 'rgba(110,234,19', 'rgba(255,168,17', 'rgba(218,111,227','rgba(218,111,227'];
 
       let lineY = [];
       for (let i = 0; i < charts.cityList.length; i++) {

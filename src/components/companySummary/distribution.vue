@@ -28,7 +28,7 @@ export default {
         color: ['#EAEA26', '#906BF9', '#FE5656', '#01E17E', '#3DD1F9', '#FFAD05', '#4465fc'],
         tooltip: {
           trigger: 'item',
-          formatter: '{b} : {c} ({d}%)'
+          formatter: '{b} : {c} 个({d}%)'
         },
         polar: {},
         angleAxis: {
@@ -166,25 +166,25 @@ export default {
           },
           data: [{
             value: 35,
-            name: '湖南'
+            name: '住宅'
           },{
             value: 28,
-            name: '河北'
+            name: '公寓'
           },{
             value: 23,
-            name: '广东'
+            name: '厂房'
           },{
             value: 18,
-            name: '四川'
+            name: '办公'
           },{
             value: 13,
-            name: '浙江'
+            name: '酒店'
           },{
             value: 8,
-            name: '江苏'
+            name: '场馆'
           },{
             value: 5,
-            name: '湖北'
+            name: '其它'
           }]
         }]
       }

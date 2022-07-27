@@ -30,9 +30,9 @@ export default {
     getEchartRight1() {
       let myChart = echarts.init(document.getElementById('chart_right1'));
       let option = {
-        // tooltip: {
-        //   show: false
-        // },
+        tooltip: {
+           show: false
+        },
         series: [{
           type: 'wordCloud',
           gridSize: 1,
@@ -60,8 +60,8 @@ export default {
             },
             emphasis: {
               fontSize: 20,
-              // shadowBlur: 10,
-              // shadowColor: 'rgba(255,255,255, .1)'
+              shadowBlur: 10,
+              shadowColor: 'rgba(255,255,255, .1)'
             }
           },
           data: [{

@@ -13,7 +13,7 @@
           <span class="tem">{{ weatcherData.tem }}°C</span> 
           <span class="wea">{{ weatcherData.wea }}</span>
         </div>
-        <h2>区块链科技公司品牌概览</h2>
+        <h2>片区开发全周期推演系统</h2>
         <div class="showTime">
           <span class="time">{{ nowTime }}</span>
           <span class="date">
@@ -26,17 +26,17 @@
       <section class="mainbox">
         <div class="item left">
           <div class="panel">
-            <h2>业务范围</h2>
+            <h2>片区开发投资(亿)</h2>
             <business />
             <div class="panel-footer"></div>
           </div>
           <div class="panel">
-            <h2>人才队伍</h2>
+            <h2>土地出让收益（亿）</h2>
             <talent />
             <div class="panel-footer"></div>
           </div>
           <div class="panel">
-            <h2>营收状况</h2>
+            <h2>片区生产总值（亿）</h2>
             <income />
             <div class="panel-footer"></div>
           </div>
@@ -47,21 +47,25 @@
             <div class="resume-hd">
               <ul>
                 <li>
-                  <countTo :startVal='startVal' :endVal='490' :duration='6000' separator=""></countTo>
+                  <countTo :startVal='startVal' :endVal='36' :duration='6000' separator=""></countTo>
                 </li>
                 <li>
-                  <countTo :startVal='startVal' :endVal='75' :duration='6000' separator=""></countTo>
+                  <countTo :startVal='startVal' :endVal='24' :duration='6000' separator=""></countTo>
                 </li>
                 <li>
-                  <countTo :startVal='startVal' :endVal='3000' :duration='6000' separator=""></countTo>
+                  <countTo :startVal='startVal' :endVal='43' :duration='6000' separator=""></countTo>
+                </li>
+                 <li>
+                  <countTo :startVal='startVal' :endVal='6' :duration='6000' separator=""></countTo>
                 </li>
               </ul>
             </div>
             <div class="resume-bd">
               <ul>
-                <li>公司总人数（单位：人）</li>
-                <li>技术人员占比（单位：%）</li>
-                <li>产品投资额（单位：万元）</li>
+                <li>一级总投资（亿）</li>
+                <li>土地转让收益（亿）</li>
+                <li>片区总产值（亿）</li>
+                <li>带动就业人口（万）</li>
               </ul>
             </div>
           </div>
@@ -75,17 +79,17 @@
 
         <div class="item right">
           <div class="panel">
-            <h2>产品热词</h2>
+            <h2>产业分布</h2>
             <wordCloud />
             <div class="panel-footer"></div>
           </div>
           <div class="panel">
-            <h2>客户分布</h2>
+            <h2>载体建设</h2>
             <distribution />
             <div class="panel-footer"></div>
           </div>
           <div class="panel">
-            <h2>发展历程</h2>
+            <h2>开发历程</h2>
             <history />
             <div class="panel-footer"></div>
           </div>

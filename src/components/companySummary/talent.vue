@@ -25,23 +25,20 @@ export default {
     getEchartLeft2() {
       let myChart = echarts.init(document.getElementById('chart_left2'));
       let scaleData = [{
-        name: '博士',
-        value: 5
+        name: '居住用地',
+        value: 10.34
       },{
-        name: '硕士',
-        value: 10
+        name: '商业用地',
+        value: 21.45
       },{
-        name: '本科',
-        value: 10
+        name: '工业用地',
+        value: 24.89
       },{
-        name: '专科',
-        value: 10
+        name: '科研用地',
+        value: 2.34
       },{
-        name: '国防科大',
-        value: 5
-      },{
-        name: '大厂专家',
-        value: 5
+        name: '其它用地',
+        value: 5.21
       }];
       let rich = {
         white: {
