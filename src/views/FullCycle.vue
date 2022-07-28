@@ -158,7 +158,7 @@ export default {
     }, 1000 * 60 * 60)
 
     this.nowTimes();
-    this.getEchart();
+    //this.getEchart();
   },
   methods: {
 
